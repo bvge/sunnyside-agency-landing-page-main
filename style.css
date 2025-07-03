@@ -522,21 +522,23 @@ footer>.socialslogo>a:nth-child(4):hover{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 60vh;
 }
 .body2 > div:nth-child(1) > .words {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .body2 > div:nth-child(1) > .words > p:nth-child(1) {
   font-family: var(--font-Fraunces);
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--Grey950);
 }
 .body2 > div:nth-child(1) > .words > p:nth-child(2) {
   font-family: var(--font-Barlow);
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
   text-align: center;
   font-weight: 500;
   margin-block: 1rem;
@@ -548,27 +550,34 @@ footer>.socialslogo>a:nth-child(4):hover{
 .body2 > div:nth-child(2) {
   background-image: url(/images/mobile/image-transform.jpg);
   order: -1;
+  height: 50vh;
 }
 
 .body2 > div:nth-child(3) {
   background-image: url(/images/mobile/image-stand-out.jpg);
+  height: 50vh;
 }
 
 /* repeat for div 4 */
+.body2 > div:nth-child(4){
+  height: 60vh;
+}
 .body2 > div:nth-child(4) > .words {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 .body2 > div:nth-child(4) > .words > p:nth-child(1) {
   font-family: var(--font-Fraunces);
-  font-size: 2.8rem;
-  font-weight: 700;
+  font-size: 2.2rem;
+  font-weight: 900;
   color: var(--Grey950);
   text-align: center;
 }
 .body2 > div:nth-child(4) > .words > p:nth-child(2) {
   text-align: center;
   font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .body2 > div:nth-child(4) > .words > p:nth-child(3) {
   text-align: center;
@@ -588,7 +597,7 @@ footer>.socialslogo>a:nth-child(4):hover{
 
 
 .body3{
-  height: 200vh;
+  height: 170vh;
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -596,10 +605,7 @@ footer>.socialslogo>a:nth-child(4):hover{
 }
 .body3>p{
   font-family: var(--font-Fraunces);
-  font-size: 1.5rem;
-  letter-spacing: 0.3rem;
-  font-weight: 700;
-  color: var(--Grey400);
+  font-size: 1.2rem;
   text-align: center;
 }
 .body3>.cont3{
@@ -635,10 +641,9 @@ footer>.socialslogo>a:nth-child(4):hover{
 }
 
 
-
 footer{
   background-color: var(--Green_500_footer);
-  height: 60vh;
+  height: 50vh;
   display: flex;
   gap: 4rem;
 }
