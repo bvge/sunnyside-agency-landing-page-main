@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/images/bvge-icon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <!-- Barlow Font -->
@@ -19,61 +24,55 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Sunnyside</title>
   </head>
   <body>
-    <main class="allBody">
-      <div class="homeView">
-        <header class="nav-bar">
-          <img src="/images/logo.svg" alt="sunnyside logo" />
-           <img class="icon-hamburger" src="/images/icon-hamburger.svg" alt="">
-          <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">CONTACT</a></li>
-          </ul>
-        </header>
-        <aside class="creative">
-          <p>WE ARE CREATIVES</p>
-          <img src="/images/icon-arrow-down.svg" alt="" />
+    <header>
+      <nav>
+        <img src="/images/logo.svg" alt="company logo" />
+        <img src="/images/icon-hamburger.svg" alt="hamburger" class="hamburger">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </nav>
+      <aside>
+        <p>WE ARE CREATIVES</p>
+        <img src="/images/icon-arrow-down.svg" alt="arrowdown" />
+      </aside>
+    </header>
+    <div class="container6">
+      <div class="words">
+        <aside>
+          <p>Transform your brand</p>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <p><a href="">Learn more</a></p>
         </aside>
       </div>
-      <main class="body2">
-      <div>
-          <aside class="words">
-            <p>Transform your brand</p>
-            <p>
-              We are a full-service creative agency specializing in <br>helping
-              brands grow fast. Engage your clients through <br>compelling visuals
-              that do most of the marketing for you.
-            </p>
-            <p><a href="">LEARN MORE</a></p>
-          </aside>
-      </div>
-      <div>
-        <!-- transform image -->
-      </div>
-      <div>
-        <!-- standout image -->
-      </div>
-      <div>
-        <aside class="words">
+      <div></div>
+      <div></div>
+      <div class="words">
+        <aside>
           <p>Stand out to the right audience</p>
           <p>
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we’ll build and
             extend your brand in digital places.
           </p>
-          <p><a href="">LEARN MORE</a></p>
+          <p><a href="">Learn more</a></p>
         </aside>
       </div>
       <div>
         <aside class="jwords">
           <p>Graphic Design</p>
           <p>
-            Great design makes you memorable. We deliver <br>artwork that
-            underscores your brand message <br>and captures potential clients'
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients'
             attention.
           </p>
         </aside>
@@ -82,21 +81,21 @@
         <aside class="jwords">
           <p>Photography</p>
           <p>
-            Increase your credibility by getting the most <br>stunning, high-quality
-            photos that improve your <br>business page
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business page
           </p>
         </aside>
       </div>
-    </main>
-    <main class="body3">
-        <p>CLIENT TESTIMONIALS</p>
-       <main class="cont3">
+    </div>
+    <section class="testimonials">
+      <p class="clienttest">CLIENT TESTIMONIALS</p>
+      <main>
         <div class="client">
           <img src="/images/image-emily.jpg" alt="emily" />
           <article>
             <p>
-              We put our trust in Sunnyside and they <br>delivered, making sure our
-              needs were met <br>and deadlines were always hit.
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
             </p>
             <p>Emily R.</p>
             <p>Marketing Director</p>
@@ -106,8 +105,8 @@
           <img src="/images/image-thomas.jpg" alt="thomas" />
           <article>
             <p>
-              Sunnyside’s enthusiasm coupled with their <br>keen interest in our
-              brand’s success made it <br>a satisfying and enjoyable experience.
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
             </p>
             <p>Thomas S.</p>
             <p>Chief Operating Officer</p>
@@ -117,46 +116,34 @@
           <img src="/images/image-jennie.jpg" alt="jennie" />
           <article>
             <p>
-              Incredible end result! Our sales increased <br>over 400% when we
-              worked with Sunnyside. <br>Highly recommended!
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
             </p>
             <p>Jennie F.</p>
             <p>Business Owner</p>
           </article>
         </div>
       </main>
-    </main>
-    <main class="body4">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </main>
+    </section>
+    <div class="images4">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
     <footer>
-        <img src="/images/logo.svg" alt="sunnylogo" class="sunnylogo" />
+      <img src="/images/logo.svg" alt="sunnylogo" class="sunnylogo" />
       <ul>
         <li><a href="">About</a></li>
         <li><a href="">Services</a></li>
         <li><a href="">Projects</a></li>
       </ul>
-      <div class="socialslogo">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </div>
-      <!-- <div>
+      <div>
         <img src="/images/icon-facebook.svg" alt="facebook" />
         <img src="/images/icon-twitter.svg" alt="twitter" />
         <img src="/images/icon-instagram.svg" alt="instagram" />
         <img src="/images/icon-pinterest.svg" alt="icon-pinterest" />
-      </div> -->
+      </div>
     </footer>
-
-
-
-
-
-    </main>
   </body>
 </html>
